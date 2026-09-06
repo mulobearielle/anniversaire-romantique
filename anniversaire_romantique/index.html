@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100814" />
+  <meta name="description" content="Une surprise romantique d'anniversaire." />
+  <title>Bienvenue dans notre histoire mon amour ❤️!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise"></div>
+  <div id="heartsLayer" class="hearts-layer" aria-hidden="true"></div>
+
+  <button id="musicBtn" class="music-btn" type="button" aria-label="Activer ou couper la musique">
+    <span class="music-icon">♪</span>
+    <span class="music-text">Musique</span>
+  </button>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source id="musicSource" src="assets/music/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="aurora aurora-one"></div>
+      <div class="aurora aurora-two"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Une petite surprise rien que pour toi</p>
+        <h1>
+          Joyeux anniversaire,
+          <span id="heroName" class="script-name">Mv</span>
+          <span class="heart-mark">♥</span>
+        </h1>
+
+        <p id="heroMessage" class="hero-message">
+          Aujourd'hui, je célèbre la personne qui rend mon monde plus doux.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#letter" class="btn btn-primary">Ouvrir mon cœur</a>
+          <button id="surpriseBtn" class="btn btn-ghost" type="button">
+            Une surprise
+          </button>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#letter" aria-label="Faire défiler">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- LETTRE -->
+    <section id="letter" class="section letter-section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">Pour toi</span>
+        <h2>Quelques mots que je voulais déposer dans ton cœur</h2>
+      </div>
+
+      <article class="love-letter glass-card reveal">
+        <div class="quote-mark">“</div>
+        <p id="letterText">
+          Mon Mv, aujourd’hui n’est pas seulement le jour où tu es né,
+          c’est aussi un jour qui me rappelle à quel point je suis heureuse
+          que la vie t’ait placé sur mon chemin.
+        </p>
+        <p class="signature">Avec tout mon amour, <span id="signatureName">Ta Kls</span>.</p>
+      </article>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="section memories-section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">Nos souvenirs</span>
+        <h2>Des instants que je garderai toujours près de moi</h2>
+      </div>
+
+      <div id="memoryGrid" class="memory-grid"></div>
+
+      <div class="center reveal">
+        <link rel="stylesheet" href="https://drive.google.com/drive/folders/1vY4PANP_RHbhT6ihi3Oh5e9Y-KNwGlNl">
+        <a id="galleryLink" class="btn btn-primary" href="https://drive.google.com/drive/folders/1vY4PANP_RHbhT6ihi3Oh5e9Y-KNwGlNl" target="_blank" rel="noopener noreferrer">
+          Voir toute notre galerie
+        </a>
+      </div>
+    </section>
+
+    <!-- POÈME -->
+    <section class="section poem-section">
+      <div class="moon"></div>
+      <div class="poem-card reveal">
+        <span class="section-kicker">Un poème pour toi</span>
+        <h2>À celui que mon cœur a choisi</h2>
+
+        <div id="poemText" class="poem">
+          <p>Bienvenue dans notre histoire mon amour ❤️!
+
+Ce cadeau m’a fait mal aux doigts, mais je sais à quel point tu es attaché aux souvenirs et c’était logique pour moi de t’offrir un cadeau qui va dans ce sens. 
+
+À la fin de ce message tu trouveras un lien. Ce lien ne te mènera pas simplement vers un dossier rempli de photos, il te mènera à travers nous et notre histoire. 
+À travers nos sourires, nos moments de folie, nos souvenirs, les instants que nous avons vécus et tous ces petits morceaux de vie que nous avons eu la chance de partager au du temps. 
+
+J’ai voulu créer cet endroit comme une petite bibliothèque, un endroit où notre histoire pourra être conservée, relue et enrichie au fil du temps, parce que certaines histoires méritent d’être racontées et la nôtre mérite surtout de ne jamais être oubliée.
+
+À chaque fois que je te manquerai tu pourras te connecter à notre drive pour te remémorer tous nos souvenirs, en ajouter d’autres et même me laisser des petits messages.
+
+Je nous ai créé une adresse mail rien que pour ça parce que…pourquoi pas ? Je trouvais ça mignon mdr.
+
+L’adresse est mvkls2025@gmail.com et le mot de passe Mvkls07042025 . Tu peux te connecter quand tu veux. 
+
+Alors, avant de cliquer, je veux simplement te dire merci. Merci pour tous ces souvenirs que nous avons déjà créés ensemble et surtout, merci pour tous ceux qui restent encore à écrire.
+
+Bienvenue dans notre histoire, mon amour. Ce n’est que le début. 🤍</p>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- FIN -->
+    <section class="section final-section">
+      <div class="final-card reveal">
+        <p class="eyebrow">Et surtout...</p>
+        <h2 id="finalTitle">Je t’aime plus que ces quelques lignes ne pourront jamais le dire.</h2>
+        <p id="finalMessage">
+          Que cette nouvelle année de ta vie t’apporte la paix, la réussite,
+          la santé, de beaux projets… et encore beaucoup de souvenirs avec moi.
+        </p>
+
+        <button id="finalSurpriseBtn" class="btn btn-primary" type="button">
+          Clique une dernière fois ❤️
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODALE SURPRISE -->
+  <div id="surpriseModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fermer">×</button>
+      <div class="modal-heart">♥</div>
+      <p class="eyebrow">Pour toi, aujourd'hui et toujours</p>
+      <h2 id="modalTitle">Tu es l’un de mes plus beaux cadeaux.</h2>
+      <p id="modalText">
+        Joyeux anniversaire mon amour. Merci d’exister, merci d’être toi,
+        et merci pour chaque petit morceau de bonheur que nous construisons ensemble.
+      </p>
+      <div class="kiss">Je t’aime ♥</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Fait avec amour par <span id="footerName">Ta chérie</span> ♥</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
