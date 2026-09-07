@@ -31,15 +31,15 @@
   // Ajoute autant de photos que tu veux.
  images: [
   {
-    src: "assets/images/WhatsApp Image 2026-09-06 at 05.16.14.jpeg",
+    src: "assets/images/WhatsApp Image 2026-09-06 at 07.56.23.jpeg",
     caption: "Un sourire que je ne me lasse jamais de regarder"
   },
   {
-    src: "assets/images/WhatsApp Image 2026-09-06 at 05.16.15 (1).jpeg",
+    src: "assets/images/WhatsApp Image 2026-09-06 at 07.57.19.jpeg",
     caption: "Un de ces moments que je veux garder pour toujours"
   },
   {
-    src: "assets/images/WhatsApp Image 2026-09-06 at 05.16.15.jpeg",
+    src: "assets/images/WhatsApp Image 2026-09-06 at 07.57.36.jpeg",
     caption: "Toi + moi, et tous nos petits souvenirs"
   }
 ]
